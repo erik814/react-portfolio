@@ -2,11 +2,22 @@
 function Nav(){
     return(
         <nav>
-            <div>About</div>
-            <div>Projects</div>
-            <div>Resume</div>
-            <div>Contact</div>
-        </nav>    
+            <div>
+                <a className='nav-link link' href='/about'>About</a>
+            </div>
+
+            <div>
+                <a className='nav-link link' href='/portfolio'>Portfolio</a>
+            </div>
+
+            <div>
+                <a className='nav-link link' href='/resume'>Resume</a>
+            </div>
+
+            <div>
+                <a className='nav-link link' href='/contact'>Contact</a>
+            </div>
+        </nav>
     )
 }
 

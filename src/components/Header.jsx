@@ -3,8 +3,10 @@ import Nav from './Nav'
 function Header(){
 
     return(
-        <header classname="header">
-            <h1>Erik Neafus</h1>
+        <header className="header">
+            <h1>
+                <a className='link' href='/'>Erik Neafus</a>
+            </h1>
             <Nav/>
 
         </header>

@@ -9,7 +9,7 @@ function Projects(){
         {id: 2, name: 'Weather Forecast', image: weatherImg, deployed: 'https://erik814.github.io/weather-forecast/', repo: 'https://github.com/erik814/weather-forecast'}
     ]
 
-    if (window.location.pathname === "/projects"){
+    if (window.location.pathname === "/portfolio"){
         return(
             <div>
                 {projects.map(project => (
@@ -23,6 +23,7 @@ function Projects(){
                         <div>
                             <p>{project.name}</p>
                             <a href={project.repo} target="blank">GitHub</a>
+                            <a href={project.deployed} traget="blank">Deployed Page</a>
                         </div>
                     </div>
                 ))}

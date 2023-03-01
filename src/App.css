@@ -1,0 +1,32 @@
+:root {
+	--light: #ffffff;
+    --font: #000000;
+}
+
+body {
+    background-color: var(--light);
+}
+
+/* links */
+
+.link {
+    color: var(--font);
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav div {
+    margin-right: 40px;
+}
