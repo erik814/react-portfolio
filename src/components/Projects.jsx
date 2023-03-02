@@ -22,17 +22,17 @@ function Projects(){
 
     if (window.location.pathname === "/portfolio"){
         return(
-            <div className="big-project-container">
-                <div className="project-row">
+
+            <div>
                     {projects.map(project => (
-                        <div className='project-container' key={project.id}>
-                            <div>
+                        <div className="project-container" key={project.id}>
+                            <div className="project-image-container">
                                 <a href={project.deployed} target="blank">
                                     <img className="project-image" src={project.image} alt={project.name}/>
                                 </a>
                             </div>
 
-                            <div>
+                            <div className="project-text-container">
                                 <h4 className="project-name">{project.name}</h4>
                                 <div className="project-text">
                                     <div>
@@ -45,8 +45,37 @@ function Projects(){
                             </div>
                         </div>
                     ))}
-                </div>
+
             </div>
+
+
+
+
+            // <div className="big-project-container">
+            //     <div className="project-row">
+            //         {projects.map(project => (
+            //             <div className='project-container' key={project.id}>
+            //                 <div>
+            //                     <a href={project.deployed} target="blank">
+            //                         <img className="project-image" src={project.image} alt={project.name}/>
+            //                     </a>
+            //                 </div>
+
+                            // <div>
+                            //     <h4 className="project-name">{project.name}</h4>
+                            //     <div className="project-text">
+                            //         <div>
+                            //             <a className='project-link' href={project.deployed} target="blank">Deployed Page</a>
+                            //         </div>
+                            //         <div>
+                            //             <a className='project-link' href={project.repo} target="blank">GitHub</a>
+                            //         </div>
+                            //     </div>
+                            // </div>
+            //             </div>
+            //         ))}
+            //     </div>
+            // </div>
         )
     }
 };
