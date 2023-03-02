@@ -37,7 +37,7 @@ body {
     background-color: var(--green);
     border-radius: 50%;
     font-size: 40px;
-    padding: 12px;
+    padding: 8px 12px;
     margin: 20px;
 }
 .initials:hover {
@@ -104,6 +104,8 @@ nav div:hover {
     margin-top: 20px;
 }
 
+
+
 /* about */
 
 .about-container {
@@ -145,13 +147,17 @@ nav div:hover {
 
 
 
-
 /* projects */
+
+.big-project-container {
+    margin-top: 50px;
+}
 
 .project-container {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 70px;
+    margin-left: 220px;
 }
 
 .project-image-container {
@@ -162,6 +168,7 @@ nav div:hover {
 
 .project-image {
     height: 250px;
+    border: 1px solid rgb(156, 156, 156);
     border-radius: 10px;
     margin-right: 30px;
 }
@@ -174,49 +181,30 @@ nav div:hover {
     font-size: 40px;
 }
 
-/* 
-.big-project-container {
-    margin-top: 90px;
+.project-links {
     display: flex;
-    justify-content: center;
 }
 
-.project-row {
+.project-link {
+    color: var(--green);
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 30px;
+}
+.project-link:hover {
+    color: var(--soft-green);
+}
+
+.tech-stack {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    justify-content: start;
+    width: 300px;
+    margin-top: 30px;
 }
 
-.project-container {
-    border: 1px solid var(--font);
-    background-color: rgb(240, 240, 240);
-    width: 32%;
-    margin: 6px;
-    border-radius: var(--project-radius);
-}
-
-.project-image {
-    width: 100%;
-    border-bottom: 1px solid black;
-    border-top-right-radius: var(--project-radius);
-    border-top-left-radius: var(--project-radius);
-}
-
-.project-name {
-    text-align: center;
-}
-
-.project-text {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 7px;
-}
-
-.project-text a {
-    text-decoration: none;
-    color: var(--green);
+.tech-stack-item {
     font-size: 18px;
+    padding: 6px;
+    margin: 0;
 }
-.project-text a:hover {
-    color: var(--soft-green);
-} */
