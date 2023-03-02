@@ -36,10 +36,10 @@ function Projects(){
                                 <h4 className="project-name">{project.name}</h4>
                                 <div className="project-text">
                                     <div>
-                                        <a href={project.deployed} target="blank">Deployed Page</a>
+                                        <a className='project-link' href={project.deployed} target="blank">Deployed Page</a>
                                     </div>
                                     <div>
-                                        <a href={project.repo} target="blank">GitHub</a>
+                                        <a className='project-link' href={project.repo} target="blank">GitHub</a>
                                     </div>
                                 </div>
                             </div>

@@ -1,4 +1,4 @@
-import portrait from '../images/portrait-placeholder.png';
+import abstract from "../images/green-lines.jpg"
 
 function Home() {
     if (window.location.pathname === "/"){
@@ -11,7 +11,7 @@ function Home() {
                 </div>
 
                 <div className="home-image">
-                    <img src={portrait} alt="placeholder profile picture"/>
+                    <img src={abstract} alt="placeholder profile picture"/>
                 </div>
             </div>
         )

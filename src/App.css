@@ -2,8 +2,15 @@
 	--light: #ffffff;
     --font: #000000;
     --retro-green: #3a8256;
-    --retro-yellow: rgb(243, 183, 62);
+    --retro-yellow: #f3b73e;
     --retro-bg: #fcf8e4;
+    --green: #107c41;
+    --soft-green: #b5d8b8;
+    --project-radius: 18px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -26,12 +33,16 @@ body {
 }
 
 .initials {
-    color: var(--retro-yellow);
-    background-color: var(--retro-green);
+    color: var(--light);
+    background-color: var(--green);
     border-radius: 50%;
     font-size: 40px;
     padding: 12px;
     margin: 20px;
+}
+.initials:hover {
+    color: var(--green);
+    background-color: var(--soft-green);
 }
 
 nav {
@@ -42,32 +53,39 @@ nav {
 
 nav div {
     margin-right: 50px;
+    font-size: 18px;
+}
+nav div:hover {
+    color: var(--green);
 }
 
 /* home */
 
 .home {
     display: flex;
+    justify-content: center;
     margin-top: 50px;
 }
 
 .home-text {
-    width: 50%;
+    width: 45%;
     padding: 200px 50px 200px 200px;
-    text-align: end;
+    text-align: center;
 }
 
 .home-image {
-    /* width: 50%; */
-    margin-top: 50px;
-    margin-right: 250px;
+    /* width: 45%; */
+    /* margin-top: 50px;
+    margin-right: 250px; */
+    margin: 108px 250px 0 50px;
 }
 
 .home-image img {
     height: 500px;
-    border-style: solid;
-    border-width: 80px;
-    border-image: repeating-linear-gradient(45deg, #3a8256 0%, #f3b73e 10%) 1;
+    border-radius: 50%;
+    /* border-style: solid;
+    border-width: 40px;
+    border-image: repeating-linear-gradient(45deg, #3a8256 0%, #f3b73e 10%) 1; */
 }
 
 .home-text h2 {
@@ -83,6 +101,7 @@ nav div {
 .home-text p {
     border-top: 1px solid var(--font);
     padding-top: 20px;
+    margin-top: 20px;
 }
 
 /* projects */
@@ -103,15 +122,18 @@ nav div {
 
 .project-container {
     border: 1px solid var(--font);
-    background-color: #869b8e;
+    background-color: rgb(240, 240, 240);
     width: 32%;
     margin: 6px;
-    padding: 5px;
+    /* padding: 5px; */
+    border-radius: var(--project-radius);
 }
 
 .project-image {
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-right-radius: var(--project-radius);
+    border-top-left-radius: var(--project-radius);
 }
 
 .project-name {
@@ -121,9 +143,14 @@ nav div {
 .project-text {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 7px;
 }
 
 .project-text a {
     text-decoration: none;
-    color: var(--retro-yellow);
+    color: var(--green);
+    font-size: 18px;
+}
+.project-text a:hover {
+    color: var(--soft-green);
 }
