@@ -37,42 +37,42 @@ function Projects(){
         ]}
     ]
 
-    if (window.location.pathname === "/react-portfolio/portfolio"){
-        return(
-            <div className="big-project-container">
-                {projects.map(project => (
-                    <div className="project-container" key={project.id}>
-                        <div className="project-image-container">
-                            <a href={project.deployed} target="blank">
-                                <img className="project-image" src={project.image} alt={project.name}/>
-                            </a>
-                        </div>
 
-                        <div className="project-text-container">
-                            <h4 className="project-name">{project.name}</h4>
-                            <div className="project-text">
-                                <div className="project-links">
-                                    <div>
-                                        <a className='project-link' href={project.deployed} target="blank">Deployed Page</a>
-                                    </div>
-                                    <div>
-                                        <a className='project-link' href={project.repo} target="blank">GitHub</a>
-                                    </div>
+    return(
+        <div className="big-project-container">
+            {projects.map(project => (
+                <div className="project-container" key={project.id}>
+                    <div className="project-image-container">
+                        <a href={project.deployed} target="blank">
+                            <img className="project-image" src={project.image} alt={project.name}/>
+                        </a>
+                    </div>
+
+                    <div className="project-text-container">
+                        <h4 className="project-name">{project.name}</h4>
+                        <div className="project-text">
+                            <div className="project-links">
+                                <div>
+                                    <a className='project-link' href={project.deployed} target="blank">Deployed Page</a>
                                 </div>
-                                <div className="tech-stack">
-                                    {project.techStack?.map(tech => (
-                                        <p className="tech-stack-item" key={tech.name}>
-                                            {tech.name}
-                                        </p>
-                                    ))}
+                                <div>
+                                    <a className='project-link' href={project.repo} target="blank">GitHub</a>
                                 </div>
+                            </div>
+                            <div className="tech-stack">
+                                {project.techStack?.map(tech => (
+                                    <p className="tech-stack-item" key={tech.name}>
+                                        {tech.name}
+                                    </p>
+                                ))}
                             </div>
                         </div>
                     </div>
-                ))}
-            </div>
-        )
-    }
+                </div>
+            ))}
+        </div>
+    )
+
 };
 
 
