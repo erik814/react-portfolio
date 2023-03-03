@@ -37,7 +37,7 @@ function Projects(){
         ]}
     ]
 
-    if (window.location.pathname === "/portfolio"){
+    if (window.location.pathname === "/react-portfolio/portfolio"){
         return(
             <div className="big-project-container">
                 {projects.map(project => (

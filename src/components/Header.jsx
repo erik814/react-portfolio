@@ -5,7 +5,7 @@ function Header(){
     return(
         <header className="header">
             <h1>
-                <a className='link initials' href='/'>EN</a>
+                <a className='link initials' href='/react-portfolio/'>EN</a>
             </h1>
             <Nav/>
 

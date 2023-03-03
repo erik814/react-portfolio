@@ -3,19 +3,19 @@ function Nav(){
     return(
         <nav>
             <div>
-                <a className='nav-link link' href='/about'>About</a>
+                <a className='nav-link link' href='/react-portfolio/about'>About</a>
             </div>
 
             <div>
-                <a className='nav-link link' href='/portfolio'>Portfolio</a>
+                <a className='nav-link link' href='/react-portfolio/portfolio'>Portfolio</a>
             </div>
 
             <div>
-                <a className='nav-link link' href='/resume'>Resume</a>
+                <a className='nav-link link' href='/react-portfolio/resume'>Resume</a>
             </div>
 
             <div>
-                <a className='nav-link link' href='/contact'>Contact</a>
+                <a className='nav-link link' href='/react-portfolio/contact'>Contact</a>
             </div>
         </nav>
     )

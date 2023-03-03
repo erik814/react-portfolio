@@ -31,7 +31,7 @@ function Contact(){
         }
     };
 
-    if (window.location.pathname === "/contact"){
+    if (window.location.pathname === "/react-portfolio/contact"){
         return(
             <div className='contact-container'>
                 <h1>Contact Me</h1>
