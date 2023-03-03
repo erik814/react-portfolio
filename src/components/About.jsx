@@ -1,7 +1,7 @@
 import portrait from '../images/me.jpg'
 
 function About(){
-    if (window.location.pathname === "/about"){
+    if (window.location.pathname === "/react-portfolio/about"){
         return(
             <div className="about-container">
                 <div className="about-text-container">

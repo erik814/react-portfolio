@@ -1,7 +1,7 @@
 import abstract from "../images/green-lines.jpg"
 
 function Home() {
-    if (window.location.pathname === "/"){
+    if (window.location.pathname === "/react-portfolio"){
         return(
             <div className="home">
                 <div className="home-text">
