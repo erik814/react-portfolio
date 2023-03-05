@@ -1,12 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import asteroidImg from '../images/asteroid-image.png';
-import guacImg from '../images/guac-image.png';
-import weatherImg from '../images/weather-image.png';
-import noteImg from '../images/note-image.png';
-import plannerImg from '../images/planner-image.png';
-import socialImg from '../images/social-img.png';
+import asteroidImg from '../../images/asteroid-image.png';
+import guacImg from '../../images/guac-image.png';
+import weatherImg from '../../images/weather-image.png';
+import noteImg from '../../images/note-image.png';
+import plannerImg from '../../images/planner-image.png';
+import socialImg from '../../images/social-img.png';
 
+import './projects.css'
 
 function Projects(){
 

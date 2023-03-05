@@ -1,4 +1,5 @@
-import abstract from "../images/green-lines.jpg"
+import abstract from "../../images/green-lines.jpg"
+import './home.css'
 
 function Home() {
 

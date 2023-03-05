@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import './App.css';
 
 import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
 import Resume from './components/resume/Resume';
-import Contact from './components/Contact';
+import Contact from './components/contact/Contact';
 
 import './index.css';
 

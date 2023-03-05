@@ -1,4 +1,5 @@
-import portrait from '../images/me.jpg'
+import portrait from '../../images/me.jpg'
+import './about.css'
 
 function About(){
 
