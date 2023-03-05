@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
+import Resume from './components/resume/Resume';
 import Contact from './components/Contact';
 
 import './index.css';
@@ -24,6 +25,8 @@ function App() {
       return <About />;
     } else if (currentPage === 'portfolio') {
       return <Projects />;
+    } else if (currentPage === 'resume') {
+      return <Resume />;
     } else if (currentPage === 'contact') {
       return <Contact />;
     }

@@ -1,0 +1,17 @@
+.resume-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.resume-body {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+.resume-portrait {
+    height: 90px;
+}

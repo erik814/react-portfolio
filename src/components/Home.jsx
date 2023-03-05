@@ -11,7 +11,7 @@ function Home() {
             </div>
 
             <div className="home-image">
-                <img src={abstract} alt="placeholder profile picture"/>
+                <img src={abstract} alt="abstract green picture"/>
             </div>
         </div>
     )
