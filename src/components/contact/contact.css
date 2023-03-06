@@ -27,3 +27,12 @@
     color: var(--green);
     background-color: var(--soft-green);
 }
+
+.error {
+    color: red;
+    font-size: 20px;
+}
+
+.thanks {
+    font-size: 20px;
+}

@@ -6,6 +6,8 @@ function Contact(){
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
+    const [thanksMessage, setThanksMessage] = useState("");
 
     const handleInputChange = (event) => {
         const { name, value } = event.target;
@@ -25,10 +27,22 @@ function Contact(){
         if (!name || !email || !message) {
             alert("Please fill out all fields");
         } else {
-            alert(`Thank you for your message, ${name}!`);
             setName("");
             setEmail("");
             setMessage("");
+            setErrorMessage("");
+            setThanksMessage(`Thank you for your message!`);
+        }
+    };
+
+    const handleInputEmpty = (event) => {
+        const { name, value } = event.target;
+
+        if (!value) {
+            // alert(`Please enter your ${name}`);
+            setErrorMessage(`Please enter your ${name}`);
+        } else {
+            setErrorMessage("");
         }
     };
 
@@ -46,6 +60,7 @@ function Contact(){
                             name="name"
                             value={name}
                             onChange={handleInputChange}
+                            onBlur={handleInputEmpty}
                         />
                     </div>
 
@@ -58,6 +73,7 @@ function Contact(){
                             name="email"
                             value={email}
                             onChange={handleInputChange}
+                            onBlur={handleInputEmpty}
                         />
                     </div>
 
@@ -69,12 +85,16 @@ function Contact(){
                             name="message"
                             value={message}
                             onChange={handleInputChange}
+                            onBlur={handleInputEmpty}
                         />
                     </div>
 
                     <button className='form-button' type="button" onClick={handleFormSubmit}>
                         Submit
                     </button>
+
+                    {errorMessage && <div className="error">{errorMessage}</div>}
+                    {thanksMessage && <div className="thanks">{thanksMessage}</div>}
                 </div>
             </form>
         </div>
