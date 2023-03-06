@@ -10,8 +10,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    box-sizing: border-box;
+    height: 95%;
+}
+
 body {
     background-color: var(--light);
+
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    box-sizing: inherit;
 }
 
 /* links */
@@ -54,4 +64,24 @@ nav div {
 }
 nav div:hover {
     color: var(--green);
+}  
+
+/* footer  */
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.footer div {
+    margin: 0 10px;
+}
+
+.footer-image {
+    height: 30px;
 }

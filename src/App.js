@@ -7,6 +7,7 @@ import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Resume from './components/resume/Resume';
 import Contact from './components/contact/Contact';
+import Footer from './components/Footer';
 
 import './index.css';
 
@@ -37,6 +38,7 @@ function App() {
 
       <Header currentPage={currentPage} setCurrentPage={handlePageChange} />
         {renderPage()}
+      <Footer/>
 
       {/* <Header/>
       <Home/>
