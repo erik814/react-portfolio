@@ -85,3 +85,20 @@ nav div:hover {
 .footer-image {
     height: 30px;
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav div {
+        margin: 0 10px;
+    }
+}

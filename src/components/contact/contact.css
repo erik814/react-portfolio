@@ -14,6 +14,11 @@
     margin-top: 20px;
 }
 
+.form-section textarea {
+    height: 100px;
+    resize: none;
+}
+
 .form-button {
     background-color: var(--green);
     color: var(--light);
@@ -35,4 +40,14 @@
 
 .thanks {
     font-size: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .contact-container {
+        margin-top: 30px;
+    }
+    .form-container {
+        width: 100%;
+    }
 }

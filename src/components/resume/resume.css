@@ -2,16 +2,37 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+}
 
+.resume-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    border: 1px solid blue;
 }
 
 .resume-body {
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
     border: 1px solid red;
+    padding-right: 35px;
+}
+
+.resume-sidebar {
+    width: 20%;
 }
 
 .resume-portrait {
     height: 90px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.timeline {
+    color: rgb(102, 102, 102);
+    font-style: italic;
 }

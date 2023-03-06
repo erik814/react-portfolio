@@ -9,28 +9,28 @@ function Resume(){
         <div>
             <a href={resume} download='erik-neafus-resume.pdf'>Download</a>
 
-            <div className="resume-page">    
-                <div className="resume-container">
-                    <div className="resume-header">
-                        <img className='resume-portrait' src={portrait} alt="placeholder profile picture"/>
-                        <div className="resume-header-text">
-                            <h1>Erik Neafus</h1>
-                            <h2>Web Developer</h2>
-                        </div>
-                    </div>
-                    
+            <div className="resume-header">
+                <img className='resume-portrait' src={portrait} alt="placeholder profile picture"/>
+                <div className="resume-header-text">
+                    <h1>Erik Neafus</h1>
+                    <h2>Web Developer</h2>
+                </div>
+            </div>
+
+            <div className="resume-page"> 
+                <div className="resume-container">                    
                     <div className="resume-body">
                         <div className="resume-profile">
-                            <h2>Profile</h2>
+                            <h2 className="bold">Profile</h2>
                             <p>I have just recently completed a web development bootcamp through the University of Minnesota. This bootcamp focused on the MERN stack, teaching technologies such as JavaScript, React, Express, MongoDB, MySql, and Node.js. Throughout the three months, I was given 2-3 projects to complete each week, as well as three collaborative group projects.</p>
 
                             <p>As a former framing carpenter, I have developed a strong foundation in problem-solving and attention to detail. I was part of a large team, as well as leading my own smaller team, working together to build new apartments. As such, communication and team work were regular aspects of the job, to ensure that my team's work would fit in seamlessly with another team.</p>
                         </div>
 
                         <div className="resume-employment">
-                            <h2 className="title">Employment History</h2>
-                            <p>Lead Carpenter at Braxton, Hopkins, MN</p>
-                            <p>December 2019 - December 2022</p>
+                            <h2 className="bold">Employment History</h2>
+                            <p className="bold">Lead Carpenter at Braxton, Hopkins, MN</p>
+                            <p className="timeline">December 2019 - December 2022</p>
                             <ul>
                                 <li>Led a team to achieve goals that were often changing by the hour</li>
                                 <li>Helped to work with and train new employees</li>
@@ -40,13 +40,14 @@ function Resume(){
                         </div>
 
                         <div className="resume-education">
-                            <h2 calssName="title">Education</h2>
-                            <p>University of Minnesota</p>
-                            <p>December 2022 - March 2023</p>
+                            <h2 className="bold">Education</h2>
+                            <p className="bold">University of Minnesota</p>
+                            <p className="timeline">December 2022 - March 2023</p>
                             <p>Web Development Bootcamp</p>
                         </div>
 
                         <div className="resume-projects">
+                            <h2 className="bold">Projects</h2>
                             <p>Asteroids</p>
                             <ul>
                                 <li>Displays asteroid data using the NASA API</li>
@@ -71,12 +72,12 @@ function Resume(){
 
                     <div className="resume-sidebar">
                         <div className="resume-details">
-                            <p className="title">Details</p>
+                            <p className="bold">Details</p>
                             <p>Saint Paul, MN</p>
                         </div>
 
                         <div className="resume-links">
-                            <p className="title">Links</p>
+                            <p className="bold">Links</p>
                             <div>
                                 <a href="https://erik814.github.io/react-portfolio/" target="_blank">Portfolio</a>
                             </div>
@@ -86,7 +87,7 @@ function Resume(){
                         </div>
 
                         <div className="resume-skills">
-                            <p className="title">Skills</p>
+                            <p className="bold">Skills</p>
                             <p>JavaScript</p>
                             <p>React</p>
                             <p>MongoDB</p>

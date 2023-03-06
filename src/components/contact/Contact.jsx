@@ -39,7 +39,6 @@ function Contact(){
         const { name, value } = event.target;
 
         if (!value) {
-            // alert(`Please enter your ${name}`);
             setErrorMessage(`Please enter your ${name}`);
         } else {
             setErrorMessage("");
