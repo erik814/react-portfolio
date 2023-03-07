@@ -45,6 +45,15 @@ function Contact(){
         }
     };
 
+    const handleValidation = () => {
+        const regex = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/;
+        if (!regex.test(email)) {
+            setErrorMessage("Please enter a valid email address");
+        } else {
+            setErrorMessage("");
+        }
+    };
+
     return(
         <div className='contact-container'>
             <h1>Contact Me</h1>

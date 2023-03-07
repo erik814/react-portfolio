@@ -1,3 +1,21 @@
+.resume-big {
+    display: flex;
+    justify-content: center;
+}
+
+.download {
+    font-size: 25px;
+    color: var(--light);
+    background-color: var(--green);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+.download:hover {
+    color: var(--green);
+    background-color: var(--soft-green);
+}
+
 .resume-page{
     display: flex;
     flex-wrap: wrap;
@@ -35,4 +53,15 @@
 .timeline {
     color: rgb(102, 102, 102);
     font-style: italic;
+}
+
+
+@media screen and (max-width: 480px) {
+    .resume-header {
+        display: none;
+    }
+
+    .resume-page {
+        display: none;
+    }
 }

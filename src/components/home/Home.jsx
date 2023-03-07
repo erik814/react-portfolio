@@ -8,7 +8,7 @@ function Home() {
             <div className="home-text">
                 <h2>Erik Neafus</h2>
                 <h3>Web Developer</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque velit consectetur molestias culpa esse temporibus. Quod minus atque exercitationem ab dicta doloribus dolorem expedita numquam enim, quas ipsum, labore earum.</p>
+                <p>I'm a web developer with a passion for creating engaging and responsive websites. Take a look around and see some of the projects I've worked on. If you want to know more, head over to my About page, or send me a message on my Contact page!</p>
             </div>
 
             <div className="home-image">
