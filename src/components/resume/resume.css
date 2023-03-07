@@ -10,6 +10,7 @@
     text-decoration: none;
     padding: 5px;
     border-radius: 8px;
+    margin-top: 100px;
 }
 .download:hover {
     color: var(--green);

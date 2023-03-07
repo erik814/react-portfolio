@@ -13,11 +13,11 @@ function Projects(){
 
     const projects = [
 
-        {id: 1, name: 'Asteroid Tracker', image: asteroidImg, deployed: 'https://asteroids.herokuapp.com/', repo: 'https://github.com/strongjaw15/asteroids', techStack: [
+        {id: 1, name: 'Asteroid Tracker', image: asteroidImg, deployed: 'https://asteroids.herokuapp.com/', repo: 'https://github.com/erik814/asteroids', techStack: [
             {name: "Express"}, {name: "MySQL2"}, {name: "Sequelize"}, {name: "NASA API"}, {name: "Node"}, {name: "Bootstrap"}, {name: "JavaScript"}
         ]},
 
-        {id: 2, name: 'Recipe Page', image: guacImg, deployed: 'https://odetothecode.github.io/GuacBottom/', repo: 'https://github.com/OdeToTheCode/GuacBottom', techStack: [
+        {id: 2, name: 'Recipe Page', image: guacImg, deployed: 'https://odetothecode.github.io/GuacBottom/', repo: 'https://github.com/erik814/GuacBottom', techStack: [
             {name: "My Cookbook API"}, {name: "JavaScript"}, {name: "jQuery"}, {name: "Bootstrap"},
         ]},
 
@@ -25,7 +25,7 @@ function Projects(){
             {name: "OpenWeather API"}, {name: "JavaScript"}, {name: "CSS"}, {name: "Bootstrap"},
         ]},
 
-        {id: 4, name: 'Social Network API', image: socialImg, deployed: '', repo: 'https://github.com/erik814/social-network-api', techStack: [
+        {id: 4, name: 'Social Network API', image: socialImg, deployed: 'https://github.com/erik814/social-network-api', repo: 'https://github.com/erik814/social-network-api', techStack: [
             {name: "Express"}, {name: "MongoDB"}, {name: "Mongoose"}, {name: "Node"}, {name: "JavaScript"}
         ]},
 
