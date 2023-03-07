@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c30f8726.css",
-    "main.js": "/react-portfolio/static/js/main.6eb77fe5.js",
+    "main.css": "/react-portfolio/static/css/main.8468353d.css",
+    "main.js": "/react-portfolio/static/js/main.af3926dd.js",
     "static/media/asteroid-image.png": "/react-portfolio/static/media/asteroid-image.98f53de168bc6987806f.png",
     "static/media/guac-image.png": "/react-portfolio/static/media/guac-image.80fe3dba00a9969e6b75.png",
     "static/media/green-lines.jpg": "/react-portfolio/static/media/green-lines.c99124458103611dbe91.jpg",
@@ -9,13 +9,16 @@
     "static/media/weather-image.png": "/react-portfolio/static/media/weather-image.fab92dd758fd95cf7d6c.png",
     "static/media/social-img.png": "/react-portfolio/static/media/social-img.bfaa8cc4d80888658d41.png",
     "static/media/planner-image.png": "/react-portfolio/static/media/planner-image.db46251024937a01380c.png",
+    "static/media/erik-neafus-resume.pdf": "/react-portfolio/static/media/erik-neafus-resume.9738a17d5406f5ac93a3.pdf",
     "static/media/note-image.png": "/react-portfolio/static/media/note-image.c46cee6b2a9168404709.png",
+    "static/media/github.png": "/react-portfolio/static/media/github.3808adb5ea5052e7cd3d.png",
+    "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.02af8c93cd1e41275a58.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c30f8726.css.map": "/react-portfolio/static/css/main.c30f8726.css.map",
-    "main.6eb77fe5.js.map": "/react-portfolio/static/js/main.6eb77fe5.js.map"
+    "main.8468353d.css.map": "/react-portfolio/static/css/main.8468353d.css.map",
+    "main.af3926dd.js.map": "/react-portfolio/static/js/main.af3926dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c30f8726.css",
-    "static/js/main.6eb77fe5.js"
+    "static/css/main.8468353d.css",
+    "static/js/main.af3926dd.js"
   ]
 }
