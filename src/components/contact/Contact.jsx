@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from 'emailjs-com';
 import './contact.css'
 
 function Contact(){
@@ -21,19 +22,52 @@ function Contact(){
         }
     };
 
+    // service ID: service_ksxsk5o
+
     const handleFormSubmit = (event) => {
         event.preventDefault();
-
+    
         if (!name || !email || !message) {
             alert("Please fill out all fields");
         } else {
-            setName("");
-            setEmail("");
-            setMessage("");
-            setErrorMessage("");
-            setThanksMessage(`Thank you for your message!`);
+            const emailjsVars = {
+                from_name: name,
+                from_email: email,
+                message: message,
+            };
+
+            emailjs.send('service_ksxsk5o', 'template_sie47el', emailjsVars, 'Mpqlvb-S1yJ0Btw6A')
+                .then((result) => {
+                    console.log(result.text);
+                    setName("");
+                    setEmail("");
+                    setMessage("");
+                    setErrorMessage("");
+                    setThanksMessage('Thank you for your message!');
+                }, (error) => {
+                    console.log(error.text);
+                    setThanksMessage("");
+                    setErrorMessage("There was an error sending your message. Please try again later.");
+                });
         }
     };
+
+
+
+
+    // const handleFormSubmit = (event) => {
+    //     event.preventDefault();
+
+    //     if (!name || !email || !message) {
+    //         alert("Please fill out all fields");
+    //     } else {
+    //         setName("");
+    //         setEmail("");
+    //         setMessage("");
+    //         setErrorMessage("");
+    //         setThanksMessage(`Thank you for your message!`);
+    //     }
+    // };
 
     const handleInputEmpty = (event) => {
         const { name, value } = event.target;
@@ -41,16 +75,13 @@ function Contact(){
         if (!value) {
             setErrorMessage(`Please enter your ${name}`);
         } else {
-            setErrorMessage("");
-        }
-    };
+            const regex = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/;
 
-    const handleValidation = () => {
-        const regex = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/;
-        if (!regex.test(email)) {
-            setErrorMessage("Please enter a valid email address");
-        } else {
-            setErrorMessage("");
+            if (!regex.test(email)) {
+                setErrorMessage("Please enter a valid email address");
+            } else {
+                setErrorMessage("");
+            }
         }
     };
 
