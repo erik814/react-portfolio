@@ -3,6 +3,11 @@
     justify-content: center;
 }
 
+.download-container{
+    display: flex;
+    justify-content: end;
+}
+
 .download {
     font-size: 25px;
     color: var(--light);
@@ -10,7 +15,8 @@
     text-decoration: none;
     padding: 5px;
     border-radius: 8px;
-    margin-top: 100px;
+    margin-right: 135px;
+    margin-bottom: 50px;
 }
 .download:hover {
     color: var(--green);
@@ -28,15 +34,18 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 70%;
-    border: 1px solid blue;
 }
 
 .resume-body {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    border: 1px solid red;
     padding-right: 35px;
+    margin-bottom: 50px;
+}
+
+.resume-education {
+    width: 100%;
 }
 
 .resume-sidebar {
@@ -64,5 +73,13 @@
 
     .resume-page {
         display: none;
+    }
+
+    .download-container {
+        justify-content: center;
+    }
+
+    .download {
+        margin: 0;
     }
 }

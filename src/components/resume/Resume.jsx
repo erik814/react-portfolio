@@ -6,16 +6,22 @@ import './resume.css'
 function Resume(){
 
     return(
-        <div className="resume-big">
+
+    <div>    
+        <div className='download-container'>
             <a href={resume} download='erik-neafus-resume.pdf' className="download">Download</a>
-{/* 
-            <div className="resume-header">
+        </div>
+
+        <div className="resume-big">
+            {/* <a href={resume} download='erik-neafus-resume.pdf' className="download">Download</a> */}
+
+            {/* <div className="resume-header">
                 <img className='resume-portrait' src={portrait} alt="placeholder profile picture"/>
                 <div className="resume-header-text">
                     <h1>Erik Neafus</h1>
                     <h2>Web Developer</h2>
                 </div>
-            </div>
+            </div> */}
 
             <div className="resume-page"> 
                 <div className="resume-container">                    
@@ -98,8 +104,9 @@ function Resume(){
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
+    </div>    
     )
 
 };
