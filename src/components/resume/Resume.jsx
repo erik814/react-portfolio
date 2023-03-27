@@ -12,7 +12,33 @@ function Resume(){
             <a href={resume} download='erik-neafus-resume.pdf' className="download">Download</a>
         </div>
 
-        <div className="resume-big">
+        <div className='skills-container'>
+            <div className='skills-left'>
+                <h2>Hard Skills</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>MongoDB</li>
+                    <li>SQL</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                </ul>
+            </div>
+
+            <div className='skills-right'>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Team Work</li>
+                    <li>Time Management</li>
+                    <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Adaptability</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+        </div>
+
+        {/* <div className="resume-big"> */}
             {/* <a href={resume} download='erik-neafus-resume.pdf' className="download">Download</a> */}
 
             {/* <div className="resume-header">
@@ -23,7 +49,7 @@ function Resume(){
                 </div>
             </div> */}
 
-            <div className="resume-page"> 
+            {/* <div className="resume-page"> 
                 <div className="resume-container">                    
                     <div className="resume-body">
                         <div className="resume-profile">
@@ -100,12 +126,12 @@ function Resume(){
                             <p>MySql</p>
                             <p>Express</p>
                             <p>Node.js</p>
-                            <p>CSS</p>
-                        </div>
+                            <p>CSS</p> */}
+                        {/* </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> */}
+        {/* </div> */}
     </div>    
     )
 

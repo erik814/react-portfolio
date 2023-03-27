@@ -23,7 +23,27 @@
     background-color: var(--soft-green);
 }
 
-.resume-page{
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-left {
+    margin-right: 40px;
+}
+
+.skills-left h2, .skills-right h2 {
+    color: white;
+    background-color: var(--green);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.skills-right {
+    margin-left: 40px;
+}
+
+/* .resume-page{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,7 +83,7 @@
 .timeline {
     color: rgb(102, 102, 102);
     font-style: italic;
-}
+} */
 
 
 @media screen and (max-width: 480px) {
