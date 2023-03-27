@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f76303c1.css",
-    "main.js": "/react-portfolio/static/js/main.3aecda12.js",
+    "main.css": "/react-portfolio/static/css/main.a226a7df.css",
+    "main.js": "/react-portfolio/static/js/main.bd7407a3.js",
     "static/media/asteroid-image.png": "/react-portfolio/static/media/asteroid-image.98f53de168bc6987806f.png",
     "static/media/guac-image.png": "/react-portfolio/static/media/guac-image.80fe3dba00a9969e6b75.png",
     "static/media/green-lines.jpg": "/react-portfolio/static/media/green-lines.c99124458103611dbe91.jpg",
     "static/media/me.jpg": "/react-portfolio/static/media/me.9f581d1e7f077d63c986.jpg",
     "static/media/weather-image.png": "/react-portfolio/static/media/weather-image.fab92dd758fd95cf7d6c.png",
     "static/media/social-img.png": "/react-portfolio/static/media/social-img.bfaa8cc4d80888658d41.png",
+    "static/media/erik-neafus-resume.pdf": "/react-portfolio/static/media/erik-neafus-resume.340de707037c05ca041b.pdf",
     "static/media/planner-image.png": "/react-portfolio/static/media/planner-image.db46251024937a01380c.png",
-    "static/media/erik-neafus-resume.pdf": "/react-portfolio/static/media/erik-neafus-resume.9738a17d5406f5ac93a3.pdf",
     "static/media/note-image.png": "/react-portfolio/static/media/note-image.c46cee6b2a9168404709.png",
     "static/media/github.png": "/react-portfolio/static/media/github.3808adb5ea5052e7cd3d.png",
     "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.02af8c93cd1e41275a58.png",
     "index.html": "/react-portfolio/index.html",
-    "main.f76303c1.css.map": "/react-portfolio/static/css/main.f76303c1.css.map",
-    "main.3aecda12.js.map": "/react-portfolio/static/js/main.3aecda12.js.map"
+    "main.a226a7df.css.map": "/react-portfolio/static/css/main.a226a7df.css.map",
+    "main.bd7407a3.js.map": "/react-portfolio/static/js/main.bd7407a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f76303c1.css",
-    "static/js/main.3aecda12.js"
+    "static/css/main.a226a7df.css",
+    "static/js/main.bd7407a3.js"
   ]
 }
